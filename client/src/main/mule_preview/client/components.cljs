@@ -4,8 +4,7 @@
    [reagent.core :as r]
    [clojure.string :refer [split replace]]
    [mule-preview.client.mappings :refer [element-to-icon-map]]
-   [lambdaisland.uri :refer [join]]
-   [re-com.core :refer [popover-content-wrapper popover-anchor-wrapper]])
+   [lambdaisland.uri :refer [join]])
   (:require-macros [mule-preview.client.macros :as m]))
 
 (def default-component-mapping {:image "UnknownNode-48x32.png"})
