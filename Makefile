@@ -19,7 +19,7 @@ browser-plugin/extension/dist: browser-plugin/node_modules/.installed client/bui
 	@echo ">>> Building Browser Extension (Release)"
 	cd browser-plugin && npm run build
 
-client/build/release.js: client/node_modules/.installed client/src/main/mule_preview/client/mappings.json client/public/img/icons/.timestamp libs/reagent/target/reagent-0.8.1-BINDFIX.jar $(CLIENT_FILES)
+client/build/release.js: client/node_modules/.installed client/src/main/mule_preview/client/mappings.json client/public/img/icons/.timestamp libs/reagent/target/reagent-0.9.0-BINDFIX.jar $(CLIENT_FILES)
 	@echo ">>> Building Client Module (Release)"
 	cd client && npm run build
 
